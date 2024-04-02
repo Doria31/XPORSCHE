@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Poppins", sans-serif;
+}
+
+
+body{
+    background-image: url(images/imglogin.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+
+/* BARRA NAVEGACIÓN */
+
+
+
+#titulo{
+    font-family: '911 Porscha Condensed', sans-serif;
+    margin-left: 2%;
+    font-size: 170%; 
+}
+
+
+
+#titulo:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#offcanvasNavbarLabel{
+    font-family: '911 Porscha Condensed', sans-serif;
+}
+
+/*FIN  BARRA NAVEGACIÓN */
+
+/* LOGIN */
+
+.card{
+    background-color: white;
+    width: 38%;
+    padding: 2%;
+    margin-left: 55%;
+    margin-top: 13%;
+    margin-bottom: 15%;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 200);
+    cursor: pointer;
+    min-width: 400PX;
+}
+                    
+#iniciarsesion{
+    margin-left: 27%;
+}
+
+#text{
+    margin-left: 27%;
+    font-size: 100%;
+    color: gray;
+
+}
+
+.form-control {
+    background-color: #eee;
+    border: none;
+    padding: 2%;
+    border-radius: 8px;
+    width: 100%;
+    margin-left: 0px;
+    
+}
+
+.social{
+    padding: 2%;
+    display: flex;
+    margin-left: 30%;
+
+}
+
+#icons{
+    padding: 10px;
+    color: black;
+}
+
+#icons:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+    
+}
+
+#ingresar{
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-left: 20%;
+    background-color: black;
+    border: none;
+    
+}
+
+#ingresar:hover{
+    background-color:rgb(94, 94, 94);
+    transform: scale(0.95);
+    transition: 0.5s;
+}
+
+#olvidaste{
+    text-decoration: none;
+    color: gray;
+    margin-left: 28%;
+}
+
+/* FIN LOGIN */
+
+/* FOOTER LOGIN */
+
+#footer{
+    background-color: black;
+    display: flex;
+}
+
+.containerfot{
+    margin-left: 5%;
+    margin-bottom: 12%;
+    cursor: pointer;
+}
+
+
+#titlefoot{
+    color: rgb(216, 216, 216);
+    font-size: 150%;
+
+}
+
+#iconsf{
+    color: white;
+    padding: 5px;
+}
+
+#iconsf:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+
+.form-floating{
+    width: 25%;
+    margin-left: 50%;
+    color: black;
+    cursor: pointer;
+}
+
+.form-select{
+    background-color: black;
+    color: white;
+    border-color: gray;
+    cursor: pointer;
+}
+
+.form-select:hover{
+    background: black;
+}
+
+
+#creditos{
+    color: rgb(199, 199, 199);
+    margin-top: 10%;
+    margin-left: -86%;
+    font-size: 15px;
+}
+
+
+@media(max-width: 1030px){
+    .card{
+        font-size: 80%;
+        margin-top: 30%;
+        margin-left: 8%;
+        margin-bottom: 35%;
+        justify-content: left;
+        align-items: left;
+        height: auto;
+    }
+
+    #creditos{
+        margin-left: -88%;
+        margin-top: 34%;
+        margin-bottom: 10%;
+    }
+
+    #iconsf{
+        margin-left: -1%;
+        
+    }
+
+    .form-floating{
+        margin-top: 1%;
+        margin-left: 35%;
+    }
+}
+

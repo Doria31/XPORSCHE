@@ -1,0 +1,344 @@
+/* page home */
+*{
+    font-family:"Poppins", sans-serif;
+}
+#titulo2{
+    font-family: '911 Porscha Condensed', sans-serif;
+    margin: 5px;
+    margin-left: 2%;
+    font-size: 150%; 
+}
+
+#titulo2:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#menuporsche{
+    width: 100%;
+}
+
+#taycan{
+    
+    margin-top: 50px;
+    width: 100%;
+}
+
+.container2{
+    margin-left: 43%;
+}
+
+#text{
+    margin-left: 3%;
+}
+
+#textp{
+    margin-left: 5%;
+
+}
+
+.btn-1 a{
+    background-color: black;
+    padding: 1.5%;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 5%;
+    margin-left: -2.2%;
+    color: white;
+}
+
+.btn-1 a:hover{
+    background-color: gray;
+    transition: 0.8s;
+}
+
+
+
+#cerrarsesion{
+    margin-top: 310px;
+    color: black;
+    
+    
+}
+
+#precio{
+    color: gray;
+}
+
+#section1{
+    margin-bottom: 10%;
+}
+
+#titlei{
+    margin-left: 40%;
+    font-size: 400%;
+}
+
+#medidas{
+    color: rgb(85, 85, 85);
+    font-size: 50%;
+}
+
+#text0{
+    color: gray;
+    font-size: 100%;
+    margin-left: 40%;
+}
+
+.info{
+    display: flex;
+}
+
+#imginfo{
+    width: 60%;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+#lemataycan{
+    margin-top: 150px;
+    margin-bottom: 25%;
+    width: 100%;
+
+}
+
+
+.section2{
+    background-color: black;
+}
+
+.section3{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+#text3{
+    margin-top: 12%;
+    margin-left: 15%;
+    font-size: 100%;
+    min-width: 10%;
+    margin-right: 14%;
+}
+
+#porsimg{
+    width: 70%;
+    max-width: 100%;
+    margin-left: 15%;
+    border-radius: 10px;
+    margin-top: -25%;
+}
+
+#porsimg:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#porsimg2{
+    width: 40%;
+    margin-top: -5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    margin-bottom: 15%;
+}
+
+
+#porsimg3{
+    width: 40%;
+    margin-left: 25%;
+    margin-top: -22%;
+    border-radius: 10px;
+}
+
+#video{
+    margin-top: 15%;
+    width: 99.9%;
+    
+}
+
+#video:hover{
+    transform: scale(0.95);
+    transition: 1s;
+}
+
+.cards{
+    display: flex;
+}
+
+.section4{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#title4{
+    margin-left: 20%;
+    margin-bottom: 3%;
+}
+
+
+
+.card{
+    width: 70%;
+    padding: 1.5%;
+    margin: 2%;
+    background-color: rgb(230, 230, 230);
+    border: none;
+    box-shadow: 0 5px 15px rgb(151, 151, 151);
+    cursor: pointer;
+}
+
+
+.card:hover{
+    transform: scale(0.95);
+    transition: 1s;
+}
+
+.card-text{
+    font-size: 70%;
+}
+
+
+
+#comprar{
+    background-color: black;
+    padding: 2% 32% 2% 32%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#comprar:hover{
+    background-color: gray;
+    transition: 0.5s;
+}
+
+
+#section5{
+    margin-top: 10%;
+}
+
+#title5{
+    margin-left: 15%;
+    font-size: 150%;
+}
+
+.table-responsive{
+    margin-top: 10%;
+    margin: 5%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgb(151, 151, 151);
+}
+
+.table-responsive:hover{
+    transform: scale(0.95);
+    transition: 1s;
+}
+
+#footer-home{
+    background-color: black;
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: -100%;
+    
+}
+
+.containerfhome{
+    margin-left: 5%;
+    color: white;
+}
+
+.containerfhome a{
+    color: rgb(216, 216, 216);
+    padding: 1%;
+}
+
+#titlefooth{
+    margin-top: 15%;
+    color: rgb(216, 216, 216);
+    font-size: 150%;
+    
+}
+
+#titlefooth1{
+   margin-top: -1%;
+   color: rgb(216, 216, 216);;
+   font-size: 150%;
+   cursor: pointer;
+}
+
+.form-floating{
+    margin-top: 5%;
+    margin-left: 30%;
+    width: 25%;  
+}
+
+#iconsfh:hover{
+    transform: scale(1.5);
+    transition: 1s;
+
+}
+
+#creditosh{
+    margin-top: 25%;
+    margin-bottom: 20%;
+    color:  rgb(216, 216, 216);
+    font-size: 15px;
+}
+
+.form-select{
+    background-color: black;
+    color: white;
+    border-color: gray;
+    cursor: pointer;
+}
+
+@media(max-width: 1030px){
+
+    .container2{
+        margin-left: 35%;
+    }
+
+    .btn-1{
+        margin-left: -1%;
+    }
+
+    .info{
+        flex-direction: column;
+        margin-left: -35%;
+    }
+
+    #imginfo{
+        margin-left: 33%;
+    }
+
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .section3{
+        flex-direction: column;
+        margin-bottom: 15%;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    #text3{
+        
+        margin-bottom: 5%;
+    }
+
+    #porsimg3{
+        margin-left: 28%;
+    }
+
+    .form-floating{
+        margin-left: -22%;
+        margin-top: 13.5%;
+    }
+
+
+}
